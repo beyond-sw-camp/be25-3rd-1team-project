@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <defs>
+    <style><![CDATA[
+      .t{font-family:'Noto Sans KR','Pretendard','Inter','Segoe UI',sans-serif;font-weight:900;font-size:56px;fill:#fff}
+      @keyframes fly{
+        0%{transform:translate(-320px,0) scale(.92);opacity:0}
+        55%{transform:translate(20px,0) scale(1.03);opacity:1}
+        75%{transform:translate(-10px,0) scale(.99)}
+        90%{transform:translate(6px,0) scale(1.01)}
+        100%{transform:translate(0,0) scale(1)}
+      }
+      @keyframes bounce{
+        0%,100%{transform:translateY(0)}
+        20%{transform:translateY(-12px)}
+        40%{transform:translateY(0)}
+        60%{transform:translateY(-7px)}
+        80%{transform:translateY(0)}
+      }
+      .wrap{animation:fly 1.05s cubic-bezier(.2,.9,.25,1) both}
+      .c1{animation:bounce .9s ease-out .22s both}
+      .c2{animation:bounce .9s ease-out .28s both}
+      .c3{animation:bounce .9s ease-out .34s both}
+      .c4{animation:bounce .9s ease-out .40s both}
+      .c5{animation:bounce .9s ease-out .46s both}
+      .c6{animation:bounce .9s ease-out .52s both}
+    ]]></style>
+  </defs>
+
+  <g class="wrap">
+    <text class="t" x="70" y="78">
+      <tspan class="c1">S</tspan>
+      <tspan class="c2">u</tspan>
+      <tspan class="c3">b</tspan>
+      <tspan class="c4">e</tspan>
+      <tspan class="c5">e</tspan>
+      <tspan class="c6">s</tspan>
+    </text>
+  </g>
+</svg>
