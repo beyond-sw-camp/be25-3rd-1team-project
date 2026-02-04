@@ -1,28 +1,38 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FFD54F&height=230&section=header&text=Subees&fontSize=72&fontColor=1F2937&animation=twinkling&desc=Unified%20Subscription%20Manager%20Front-end&descAlignY=70" />
+<!-- ✅ 상단: "글자 자체가 춤추는" SVG(배경 어둡게 + 텍스트 흰색) -->
+<!-- TODO: 문구/속도/폰트/배경색 원하는대로 수정 -->
+<img
+  src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' width='1200' height='220' viewBox='0 0 1200 220'>  <defs>    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>      <stop offset='0' stop-color='%230b1020'/>      <stop offset='1' stop-color='%23010b18'/>    </linearGradient>    <filter id='glow'>      <feGaussianBlur stdDeviation='2.2' result='coloredBlur'/>      <feMerge>        <feMergeNode in='coloredBlur'/>        <feMergeNode in='SourceGraphic'/>      </feMerge>    </filter>  </defs>  <rect width='1200' height='220' rx='26' fill='url(%23bg)'/>  <text x='60' y='140' font-family='Inter, Segoe UI, Arial' font-weight='900' font-size='92' fill='white' filter='url(%23glow)'>    <tspan>      <tspan dx='0'>S</tspan>      <tspan dx='0'>u</tspan>      <tspan dx='0'>b</tspan>      <tspan dx='0'>e</tspan>      <tspan dx='0'>e</tspan>      <tspan dx='0'>s</tspan>    </tspan>  </text>  <!-- 각 글자를 독립적으로 흔들리게(춤추는 느낌) -->  <g font-family='Inter, Segoe UI, Arial' font-weight='900' font-size='92' fill='white' opacity='0'>    <!-- 접근성용: 위 text가 보임. 아래는 애니메이션용(겹쳐서 같은 위치에 다시 렌더) -->  </g>  <g font-family='Inter, Segoe UI, Arial' font-weight='900' font-size='92' fill='white' filter='url(%23glow)'>    <text x='60' y='140'>      <tspan id='c1'>S</tspan>      <animateTransform attributeName='transform' type='translate' additive='sum' dur='1.35s' repeatCount='indefinite' values='0 0; 0 -10; 0 0; 0 6; 0 0'/>    </text>    <text x='120' y='140'>      <tspan>u</tspan>      <animateTransform attributeName='transform' type='translate' additive='sum' dur='1.15s' repeatCount='indefinite' values='0 0; 0 8; 0 0; 0 -7; 0 0'/>    </text>    <text x='182' y='140'>      <tspan>b</tspan>      <animateTransform attributeName='transform' type='translate' additive='sum' dur='1.42s' repeatCount='indefinite' values='0 0; 0 -8; 0 0; 0 9; 0 0'/>    </text>    <text x='246' y='140'>      <tspan>e</tspan>      <animateTransform attributeName='transform' type='translate' additive='sum' dur='1.22s' repeatCount='indefinite' values='0 0; 0 10; 0 0; 0 -6; 0 0'/>    </text>    <text x='306' y='140'>      <tspan>e</tspan>      <animateTransform attributeName='transform' type='translate' additive='sum' dur='1.30s' repeatCount='indefinite' values='0 0; 0 -9; 0 0; 0 7; 0 0'/>    </text>    <text x='366' y='140'>      <tspan>s</tspan>      <animateTransform attributeName='transform' type='translate' additive='sum' dur='1.18s' repeatCount='indefinite' values='0 0; 0 7; 0 0; 0 -9; 0 0'/>    </text>  </g>  <text x='62' y='190' font-family='Inter, Segoe UI, Arial' font-weight='600' font-size='22' fill='%23e5e7eb' opacity='0.95'>Unified Subscription Manager · Front-end</text></svg>"
+  alt="Subees Dancing Title"
+/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+KR&weight=900&size=36&duration=2200&pause=700&color=111827&center=true&vCenter=true&multiline=true&width=900&height=120&lines=%F0%9F%90%9D+Subees+Front-end;%F0%9F%90%9D+%EA%B5%AC%EB%8F%85%EC%9D%84+%ED%95%9C+%EA%B3%B3%EC%97%90%EC%84%9C+%EA%B4%80%EB%A6%AC;%F0%9F%90%9D+Manage.+Track.+Save." alt="Subees dancing title" />
-
-<!-- TODO: 로고/포스터 경로 교체 -->
-<img src="./assets/images/logo.png" width="220" alt="Subees Logo" />
-<br />
-<sub><b>Subees Logo</b></sub>
-
-<br /><br />
-
-<img src="./assets/images/cover.png" width="720" alt="Project Cover" />
+<!-- ✅ (선택) 대표 이미지 자리 -->
+<!-- TODO: 아래 이미지 경로를 실제 파일로 교체 -->
+<img src="./assets/images/cover.png" width="860" alt="Project Cover" />
 <br />
 <sub><b>Project Cover / Main Screenshot</b></sub>
 
 <br /><br />
 
+<!-- 배지(원하는대로 수정) -->
 <img src="https://img.shields.io/badge/Frontend-React-0f172a?style=for-the-badge" alt="Frontend" />
 <img src="https://img.shields.io/badge/Language-TypeScript-0f172a?style=for-the-badge" alt="TypeScript" />
 <img src="https://img.shields.io/badge/Style-Tailwind%20CSS-0f172a?style=for-the-badge" alt="Tailwind" />
-<img src="https://img.shields.io/badge/State-TanStack%20Query-0f172a?style=for-the-badge" alt="TanStack Query" />
+<img src="https://img.shields.io/badge/State-TanStack%20Query-0f172a?style=for-the-badge" alt="State" />
 
 </div>
+
+---
+
+## 👥 Team (Subees)
+<!-- TODO: 팀원 소개/역할/깃허브 링크 채우기 -->
+| Name | Role | GitHub |
+|---|---|---|
+| <!-- TODO --> | <!-- TODO: FE/BE/Design/PM --> | <!-- TODO: https://github.com/username --> |
+| <!-- TODO --> | <!-- TODO --> | <!-- TODO --> |
+| <!-- TODO --> | <!-- TODO --> | <!-- TODO --> |
+| <!-- TODO --> | <!-- TODO --> | <!-- TODO --> |
 
 ---
 
@@ -54,7 +64,7 @@
 
 ### 1) 서비스 명칭 및 한 줄 소개
 - **서비스 명칭:** Subees
-- **한 줄 소개:** <!-- TODO: 한 줄 소개 -->
+- **한 줄 소개:** <!-- TODO -->
 
 ### 2) 프로젝트 범위(Front-end)
 - 본 레포는 **Front-end(UI/UX)** 구현을 담당합니다.
@@ -140,6 +150,7 @@
 
 <a id="유스케이스-다이어그램-use-case-diagram"></a>
 ## 🧩 유스케이스 다이어그램 (Use Case Diagram)
+
 <div align="center">
 
 ![](./assets/images/usecase.png)
@@ -171,7 +182,6 @@ src/
 
 <a id="단위-테스트-및-시연-uiux-unit-test"></a>
 ## 🧪 단위 테스트 및 시연 (UI/UX Unit Test)
-
 - 전략: <!-- TODO -->
 
 ```bash
@@ -187,7 +197,7 @@ pnpm e2e
 
 <div align="center">
 
-<img src="./assets/gif/demo-auth.gif" width="820" alt="Auth Demo" />
+<img src="./assets/gif/demo-auth.gif" width="860" alt="Auth Demo" />
 
 </div>
 
