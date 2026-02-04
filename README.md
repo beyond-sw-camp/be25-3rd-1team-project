@@ -68,7 +68,7 @@
       </a>
     </td>
 
-    <td align="center" valign="top">
+  <td align="center" valign="top">
       <img src="./이미지/깃허브_사진/cat2.jpg" width="120" alt="김다솜" /><br />
       <b>김다솜</b><br />
       <a href="https://github.com/ZonezIpex">
@@ -76,7 +76,7 @@
       </a>
     </td>
 
-    <td align="center" valign="top">
+  <td align="center" valign="top">
       <img src="./이미지/깃허브_사진/cat3.jpg" width="120" alt="김승욱" /><br />
       <b>김승욱</b><br />
       <a href="https://github.com/ZonezIpex">
@@ -84,7 +84,7 @@
       </a>
     </td>
 
-    <td align="center" valign="top">
+  <td align="center" valign="top">
       <img src="./이미지/깃허브_사진/cat4.jpg" width="120" alt="김정수" /><br />
       <b>김정수</b><br />
       <a href="https://github.com/ZonezIpex">
@@ -92,7 +92,7 @@
       </a>
     </td>
 
-    <td align="center" valign="top">
+  <td align="center" valign="top">
       <img src="./이미지/깃허브_사진/cat5.jpg" width="120" alt="신민수" /><br />
       <b>신민수</b><br />
       <a href="https://github.com/ZonezIpex">
@@ -100,7 +100,7 @@
       </a>
     </td>
 
-    <td align="center" valign="top">
+  <td align="center" valign="top">
       <img src="./이미지/깃허브_사진/cat6.jpg" width="120" alt="이서윤" /><br />
       <b>이서윤</b><br />
       <a href="https://github.com/ZonezIpex">
