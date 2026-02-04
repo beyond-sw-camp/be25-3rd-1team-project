@@ -1,55 +1,10 @@
 <div align="center">
 
-<!-- ✅ 통통 튀면서 왼→오 날아오는 Subees (SVG data URI) -->
 <img
-  alt="Subees bounce-in"
-  src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?>\
-<svg xmlns='http://www.w3.org/2000/svg' width='900' height='120' viewBox='0 0 900 120'>\
-  <defs>\
-    <style><![CDATA[\
-      .t{font-family:'Noto Sans KR','Pretendard','Inter','Segoe UI',sans-serif; font-weight:900; font-size:56px; fill:#fff;}\
-      /* 왼쪽 바깥에서 시작 → 오버슈트(튀김) → 정착 */\
-      @keyframes fly{\
-        0%   {transform:translate(-280px,0) scale(.92);}\
-        60%  {transform:translate(18px,0)  scale(1.03);}\
-        78%  {transform:translate(-10px,0) scale(.99);}\
-        90%  {transform:translate(6px,0)   scale(1.01);}\
-        100% {transform:translate(0,0)     scale(1);}\
-      }\
-      /* 통통 튀는 느낌(수직 바운스) */\
-      @keyframes bounce{\
-        0%,100%{transform:translateY(0);}\
-        20%{transform:translateY(-10px);}\
-        40%{transform:translateY(0);}\
-        60%{transform:translateY(-6px);}\
-        80%{transform:translateY(0);}\
-      }\
-      .wrap{animation:fly 1.1s cubic-bezier(.2,.9,.25,1) both;}\
-      .b{animation:bounce .9s ease-out .25s both;}\
-      /* 글자별 딜레이(살짝 파도처럼) */\
-      .c1{animation:bounce .9s ease-out .25s both;}\
-      .c2{animation:bounce .9s ease-out .30s both;}\
-      .c3{animation:bounce .9s ease-out .35s both;}\
-      .c4{animation:bounce .9s ease-out .40s both;}\
-      .c5{animation:bounce .9s ease-out .45s both;}\
-      .c6{animation:bounce .9s ease-out .50s both;}\
-    ]]></style>\
-  </defs>\
-  <g class='wrap' transform='translate(0,0)'>\
-    <g transform='translate(70,78)'>\
-      <text class='t'>\
-        <tspan class='c1'>S</tspan>\
-        <tspan class='c2'>u</tspan>\
-        <tspan class='c3'>b</tspan>\
-        <tspan class='c4'>e</tspan>\
-        <tspan class='c5'>e</tspan>\
-        <tspan class='c6'>s</tspan>\
-      </text>\
-    </g>\
-  </g>\
-</svg>"
+  src="https://raw.githubusercontent.com/<GITHUB_ID>/<REPO>/<BRANCH>/이미지/배너/배너.svg"
+  alt="Subees"
+  width="900"
 />
-
 
 ## 통합 구독 관리 서비스 Front-end (Subees)
 
