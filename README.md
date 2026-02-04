@@ -1,10 +1,7 @@
 <div align="center">
 
-<img
-  src="https://raw.githubusercontent.com/<GITHUB_ID>/<REPO>/<BRANCH>/이미지/배너/배너.svg"
-  alt="Subees"
-  width="900"
-/>
+<img src="./이미지/배너/배너.svg" alt="Subees 배너" width="900" />
+
 
 ## 통합 구독 관리 서비스 Front-end (Subees)
 
