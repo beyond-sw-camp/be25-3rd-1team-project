@@ -7,9 +7,16 @@
   alt="Subees Dancing Title"
 />
 
+
+<!-- ✅ 로고 (프로젝트에 포함된 이미지 경로로 연결) -->
+<img src="./이미지/로고/Subees_Logo.png" width="240" alt="Subees Logo" />
+<br/>
+<sub><b>Subees Logo</b></sub>
+
+
 <!-- ✅ (선택) 대표 이미지 자리 -->
 <!-- TODO: 아래 이미지 경로를 실제 파일로 교체 -->
-<img src="./assets/images/cover.png" width="860" alt="Project Cover" />
+<img src="./이미지/포스터/포스터예시.jpg" width="860" alt="Project Cover" />
 <br />
 <sub><b>Project Cover / Main Screenshot</b></sub>
 
@@ -26,15 +33,19 @@
 ---
 
 ## 👥 Team (Subees)
-<!-- TODO: 팀원 소개/역할/깃허브 링크 채우기 -->
-| Name | Role | GitHub |
-|---|---|---|
-| <!-- TODO --> | <!-- TODO: FE/BE/Design/PM --> | <!-- TODO: https://github.com/username --> |
-| <!-- TODO --> | <!-- TODO --> | <!-- TODO --> |
-| <!-- TODO --> | <!-- TODO --> | <!-- TODO --> |
-| <!-- TODO --> | <!-- TODO --> | <!-- TODO --> |
+
+<!-- TODO: 역할/파트/담당 기능은 추후 수정 -->
+| Avatar | Name | Role | GitHub |
+|---|---|---|---|
+| <img src="./이미지/깃허브_사진/cat1.jpg" width="48" /> | 김가영 | 조장 | https://github.com/ZonezIpex |
+| <img src="./이미지/깃허브_사진/cat2.jpg" width="48" /> | 김다솜 | 팀원 | https://github.com/ZonezIpex |
+| <img src="./이미지/깃허브_사진/cat3.jpg" width="48" /> | 김승욱 | 팀원 | https://github.com/ZonezIpex |
+| <img src="./이미지/깃허브_사진/cat4.jpg" width="48" /> | 김정수 | 팀원 | https://github.com/ZonezIpex |
+| <img src="./이미지/깃허브_사진/cat5.jpg" width="48" /> | 신민수 | 팀원 | https://github.com/ZonezIpex |
+| <img src="./이미지/깃허브_사진/cat6.jpg" width="48" /> | 이서윤 | 팀원 | https://github.com/ZonezIpex |
 
 ---
+
 
 ## 👀 Repository 목차
 1. [📌 프로젝트 개요 (Project Overview)](#프로젝트-개요-project-overview)
@@ -89,7 +100,7 @@
 
 <div align="center">
 
-![](./assets/images/process-map.png)
+![](./이미지/포스터/포스터예시.jpg)
 
 </div>
 
@@ -136,7 +147,7 @@
 
 <div align="center">
 
-![](./assets/images/architecture.png)
+![](./이미지/포스터/포스터예시.jpg)
 
 </div>
 
@@ -153,7 +164,7 @@
 
 <div align="center">
 
-![](./assets/images/usecase.png)
+![](./이미지/포스터/포스터예시.jpg)
 
 </div>
 
@@ -197,7 +208,7 @@ pnpm e2e
 
 <div align="center">
 
-<img src="./assets/gif/demo-auth.gif" width="860" alt="Auth Demo" />
+<img src="./이미지/포스터/포스터예시.jpg" width="860" alt="Auth Demo" />
 
 </div>
 
@@ -209,7 +220,7 @@ pnpm e2e
 
 <div align="center">
 
-![](./assets/images/uiux-test-report.png)
+![](./이미지/포스터/포스터예시.jpg)
 
 </div>
 
@@ -233,7 +244,7 @@ pnpm e2e
 
 <div align="center">
 
-![](./assets/images/wbs.png)
+![](./이미지/포스터/포스터예시.jpg)
 
 </div>
 
