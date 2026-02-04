@@ -63,7 +63,7 @@
       <br />
       <b>조장:김가영</b>
       <br />
-      <a href="https://github.com/ZonezIpex">
+      <a href="https://github.com/gahyoung">
         <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GITHUB" />
       </a>
     </td>
